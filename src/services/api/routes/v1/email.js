@@ -36,7 +36,7 @@ router.get('/verify', async (request, response) => {
 
 	await util.sendEmailConfirmedEmail(pnid);
 
-	response.status(200).send('Email validated. You may close this window');
+	response.status(200).send('Email validated. You may close this window :3');
 });
 
 module.exports = router;

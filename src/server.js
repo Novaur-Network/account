@@ -1,4 +1,4 @@
-process.title = 'Pretendo - Account';
+process.title = 'Nova Network - Account';
 
 const configManager = require('./config-manager');
 

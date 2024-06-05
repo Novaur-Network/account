@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PretendoNetwork/account.git"
+    "url": "git+https://github.com/darcellapy/account.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PretendoNetwork/account/issues"
+    "url": "https://github.com/darcellapy/account/issues"
   },
-  "homepage": "https://github.com/PretendoNetwork/account#readme",
+  "homepage": "https://github.com/darcellapy/account#readme",
   "dependencies": {
     "aws-sdk": "^2.978.0",
     "bcrypt": "^5.0.0",
@@ -40,7 +40,7 @@
     "kaitai-struct": "^0.9.0",
     "lodash.get": "^4.4.2",
     "lodash.set": "^4.3.2",
-    "mii-js": "github:PretendoNetwork/mii-js",
+    "mii-js": "github:darcellapy/mii-js",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
     "mongoose": "^5.8.3",

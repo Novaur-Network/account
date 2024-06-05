@@ -255,7 +255,7 @@ async function sendConfirmationEmail(pnid) {
 			href: `https://api.pretendo.cc/v1/email/verify?token=${pnid.get('identification.email_token')}`,
 			code: pnid.get('identification.email_code')
 		},
-		text: `Hello ${pnid.get('username')}! \r\n\r\nYour Pretendo Network ID activation is almost complete. Please click the link to confirm your e-mail address and complete the activation process: \r\nhttps://api.pretendo.cc/v1/email/verify?token=${pnid.get('identification.email_token')} \r\n\r\nYou may also enter the following 6-digit code on your console: ${pnid.get('identification.email_code')}`
+		text: `Hello ${pnid.get('username')}! \r\n\r\nYour Pretendo Network ID activation is almost complete. Please click the link to confirm your e-mail address and complete the activation process: \r\nhttps://api.ecliipse.app/v1/email/verify?token=${pnid.get('identification.email_token')} \r\n\r\nYou may also enter the following 6-digit code on your console: ${pnid.get('identification.email_code')}`
 	});
 
 }
@@ -263,10 +263,10 @@ async function sendConfirmationEmail(pnid) {
 async function sendEmailConfirmedEmail(pnid) {
 	await mailer.sendMail({
 		to: pnid.get('email.address'),
-		subject: '[Pretendo Network] Email address confirmed',
+		subject: '[Nova Network] Email address confirmed',
 		username: pnid.get('username'),
 		paragraph: 'your email address has been confirmed. We hope you have fun on Pretendo Network!',
-		text: `Dear ${pnid.get('username')}, \r\n\r\nYour email address has been confirmed. We hope you have fun on Pretendo Network!`
+		text: `Dear ${pnid.get('username')}, \r\n\r\nYour email address has been confirmed. We hope you have fun on Nova Network!`
 	});
 }
 
@@ -292,7 +292,7 @@ async function sendForgotPasswordEmail(pnid) {
 
 	await mailer.sendMail({
 		to: pnid.get('email.address'),
-		subject: '[Pretendo Network] Forgot Password',
+		subject: '[Nova Network] Forgot Password',
 		username: pnid.get('username'),
 		paragraph: 'a password reset has been requested from this account. If you did not request the password reset, please ignore this email. If you did request this password reset, please click the link below to reset your password.',
 		link: {
