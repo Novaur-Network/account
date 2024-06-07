@@ -1,6 +1,5 @@
 # Nova Network?
-Yes, Nova Network. Nova Network is supposed to be a small rehost of Pretendo, done out of boredom and for fun. 
-**All of the original source code is developed by Pretendo Network. Thanks!**
+Yes, **Nova Network**. Nova Network is aimed to be a mostly private, closed source Nintendo Network custom replacement server, being studied and heavily rewritten based off of Pretendo Network open-source code. Technically, this is to be one of the first Pretendo Network alternatives (if you are mature enough to join it that is).
 
 Original README.md below:
 
